@@ -1,0 +1,2 @@
+[mysqld]
+replicate-ignore-table=my_database.products

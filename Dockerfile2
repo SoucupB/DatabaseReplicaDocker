@@ -4,6 +4,8 @@ FROM mysql:8.0
 ENV MYSQL_ROOT_PASSWORD=root_password
 EXPOSE 3309
 
+COPY slave.cnf /etc/mysql/my.cnf
+
 # Optionally, specify a default database
 # ENV MYSQL_DATABASE=my_database
 
