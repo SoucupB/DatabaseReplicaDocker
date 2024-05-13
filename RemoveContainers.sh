@@ -1,0 +1,5 @@
+docker kill read_replica_container
+docker kill master_container
+
+docker rm master_container
+docker rm read_replica_container

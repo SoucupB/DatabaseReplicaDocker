@@ -1,0 +1,1 @@
+docker exec -it read_replica_container bin/bash

@@ -1,0 +1,1 @@
+docker exec -it master_container bin/bash

@@ -1,0 +1,6 @@
+FROM mysql:8.0
+
+ENV MYSQL_ROOT_PASSWORD=root_password
+EXPOSE 3306
+COPY BuildMysql.sql /
+COPY my.cnf /etc/mysql/my.cnf
