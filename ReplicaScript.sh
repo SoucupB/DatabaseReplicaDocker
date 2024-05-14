@@ -3,7 +3,7 @@ CHANGE MASTER TO
   MASTER_USER='replication_user',
   MASTER_PASSWORD='replication_password',
   MASTER_LOG_FILE='binlog.000002',
-  MASTER_LOG_POS=1311,
+  MASTER_LOG_POS=1310,
   GET_MASTER_PUBLIC_KEY=1;
 
 
