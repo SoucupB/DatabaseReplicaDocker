@@ -24,7 +24,5 @@ CREATE TABLE IF NOT EXISTS orders (
     user_id INT,
     product_id INT,
     quantity INT,
-    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-    FOREIGN KEY (user_id) REFERENCES users(id),
-    FOREIGN KEY (product_id) REFERENCES products(id)
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
